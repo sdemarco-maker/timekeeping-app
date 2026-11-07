@@ -1,5 +1,5 @@
 import express from 'express';
-import cors from 'cors';
+// @ts-ignore import cors from 'cors';
 import dotenv from 'dotenv';
 import { initDatabase } from './database';
 import employeeRoutes from './routes/employees';
