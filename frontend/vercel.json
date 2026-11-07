@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "env": {
+    "REACT_APP_API_URL": "@react_app_api_url",
+    "REACT_APP_ADMIN_PASSWORD": "@react_app_admin_password"
+  }
+}
